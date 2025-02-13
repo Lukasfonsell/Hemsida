@@ -27,10 +27,20 @@
     
       <div class="dropdown-content">
         <div>
+          <script src="Scroll.js"></script>
+
           <ol>
             <li class="list">PORTFOLIO</li>
             <li class="list">ABOUT</li>
-            <li class="list">CV</li>
+            <li class="list"><a href="CV.pdf" target="_blank" class="no-style">CV</a></li>
+            <style>
+              .no-style {
+                  text-decoration: none; /* Removes the underline */
+                  color: inherit; /* Inherits the color from the parent element */
+                  cursor: none;
+              }
+          </style>
+
           </ol>
         </div>
       </div>
@@ -42,12 +52,15 @@
 
 
 
+
     <div class="cursor"></div>
     <script src="muspekare.js"></script>
     <script src="dropdown.js"></script>
 
+    
    
   </body>
+  
   
 
 </html>
